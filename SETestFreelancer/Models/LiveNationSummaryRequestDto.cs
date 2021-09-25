@@ -7,8 +7,6 @@ namespace SETestFreelancer.Models
 {
     public class LiveNationSummaryRequestDto
     {
-        public int Start { get; set; }
-
-        public int End { get; set; }
+        public string Range { get; set; }
     }
 }
